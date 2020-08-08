@@ -1,0 +1,83 @@
+.App {
+  text-align: center;
+  background-color: #051733;
+  height: 800px;
+  max-height: 900px;
+  width: 100%;
+}
+.Menu {
+  background-color: #194180;
+  width: 300px;
+  height: 500px;
+  position: fixed;
+  z-index: 8;
+  margin-top: 60px;
+  margin-left: 45px;
+  border-radius: 20px;
+  text-align: center;
+  box-shadow: 0px 5px 0px 5px #474645;
+  opacity: 0.6;
+}
+.Menu h1 {
+  font-size: 36px;
+  -webkit-text-stroke: 0.5px #474645;
+  color: white;
+}
+.widget {
+  font-size: 150px;
+  padding: 10px;
+  color: #fff;
+  left: 90px;
+  border: 2px solid white;
+  border-radius: 10%;
+  box-shadow: 5px 5px #474645;
+  top: 250px;
+  position: relative;
+}
+.toogleSwitch {
+  float: right;
+  right: 65px;
+}
+.ampm {
+  float: right;
+  margin-top: 15px;
+  color: #fff;
+}
+.btn {
+  padding: 6px;
+  background-color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 2px;
+  flex: auto;
+  width: 40%;
+  margin: 1px;
+}
+.button {
+  position: fixed;
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 30px;
+  margin: 1em;
+  cursor: pointer;
+}
+.btnToogle {
+  padding: 5px;
+  background-color: white;
+  display: inline-block;
+  opacity: 0.8;
+  border-radius: 2px;
+  cursor: pointer;
+  flex: auto;
+  width: 40%;
+}
+.buttonToogle {
+  position: fixed;
+  z-index: 10;
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 23px;
+  margin: 1em;
+  cursor: pointer;
+}
